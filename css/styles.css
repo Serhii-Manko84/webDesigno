@@ -236,6 +236,34 @@ div.product__content-item {
   background-image: url(../assets/images/graphic.jpg);
 }
 
+.props {
+  column-gap: 30px;
+}
+
+.props__item {
+  text-align: center;
+  color: #333136;
+  width: 350px;
+  min-height: 790px;
+}
+
+.props__item img {
+  margin-bottom: 48px;
+}
+
+.props__item h2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  margin-bottom: 32px;
+}
+
+.props__item p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
 .footer {
   /* background-color: #1d1c1e; */
 }

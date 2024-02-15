@@ -28,9 +28,11 @@ a {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1130px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .flex {
@@ -272,7 +274,7 @@ div.product__content-item {
 .touch {
   min-height: 292px;
   max-width: 1110px;
-  width: 100%;
+  /* width: 100%; */
   border-radius: 15px;
   background: url(../assets/images/bg_touch.png), #e7816b;
   background-repeat: no-repeat;
@@ -314,4 +316,70 @@ div.product__content-item {
 .line {
   padding-bottom: 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.info {
+  justify-content: center;
+  gap: 30px;
+}
+
+.info__item {
+  width: 350px;
+}
+.info__item h2 {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  opacity: 0.5;
+}
+.info__item p {
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.5;
+}
+
+.info__item.bolt p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.info__item.social {
+  height: 78px;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.info__item.social a {
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 50%;
+  transition: background 0.5s ease-in-out;
+}
+
+.info__item.social a:nth-child(1) {
+  background-image: url(../assets/images/Faceb.svg);
+}
+
+.info__item.social a:nth-child(2) {
+  background-image: url(../assets/images/Yout.svg);
+}
+.info__item.social a:nth-child(3) {
+  background-image: url(../assets/images/twit.svg);
+}
+.info__item.social a:nth-child(4) {
+  background-image: url(../assets/images/P.svg);
+}
+.info__item.social a:nth-child(5) {
+  background-image: url(../assets/images/inst.svg);
+}
+
+.info__item.social a:hover {
+  background: #fff;
+  opacity: 0.8;
 }

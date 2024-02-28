@@ -192,6 +192,10 @@ div.product__content-item {
   gap: 24px;
 }
 
+.webd div.product__content-item {
+  flex-direction: row;
+}
+
 .product div {
   display: flex;
   flex-direction: column;
@@ -380,6 +384,109 @@ div.product__content-item {
 }
 
 .info__item.social a:hover {
-  background: #fff;
-  opacity: 0.8;
+  background-color: #ffad9b;
+
+  opacity: 0.9;
+}
+
+/* CSS  webDesign.html */
+
+.webd .touch__main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.touch__main {
+  min-height: 292px;
+  max-width: 1110px;
+  border-radius: 15px;
+  background: url(../assets/images/touch-main-bg.png), #e7816b;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  padding-left: 94px;
+  padding-right: 94px;
+  justify-content: center;
+  column-gap: 310px;
+  flex-wrap: wrap;
+}
+
+.touch__main__content {
+  max-width: 460px;
+}
+
+.touch__main__content h2 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+
+.touch__main__content p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.webd .products {
+  padding-bottom: 220px;
+  min-height: 850px;
+}
+
+.webd .works {
+  padding-top: 160px;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 32px;
+}
+
+.webd .works__item {
+  width: 350px;
+  height: 478px;
+  border-radius: 15px;
+}
+
+.works__item.flex {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.works__item div {
+  height: 158px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 32px;
+  gap: 16px;
+  background: #fdf3f0;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  transition: background 0.5s ease-in-out;
+}
+
+.works__item div:hover {
+  background: #e7816b;
+  color: #fff;
+}
+
+.works__item div:hover h3,
+.works__item div:hover p {
+  color: #fff;
+}
+
+.works__item h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #e7816b;
+}
+
+.works__item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333136;
 }

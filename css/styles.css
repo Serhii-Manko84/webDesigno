@@ -19,10 +19,6 @@ a {
   text-decoration: none;
 }
 
-.header {
-  /* background-color: beige; */
-}
-
 .header .container {
   height: 155px;
 }
@@ -174,13 +170,12 @@ a {
   height: 308px;
   border-radius: 15px;
   background: #000;
-
+  background-image: url(../assets/images/web.png);
   gap: 24px;
 }
 
 .product__content-item.product {
   min-height: 640px;
-  background-image: url(../assets/images/web.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -233,6 +228,9 @@ div.product__content-item {
   background-position: center center;
 }
 
+.product {
+  background-image: url(../assets/images/web.png);
+}
 .app {
   background-image: url(../assets/images/app.jpg);
 }
@@ -278,7 +276,6 @@ div.product__content-item {
 .touch {
   min-height: 292px;
   max-width: 1110px;
-  /* width: 100%; */
   border-radius: 15px;
   background: url(../assets/images/bg_touch.png), #e7816b;
   background-repeat: no-repeat;
@@ -489,4 +486,53 @@ div.product__content-item {
   font-size: 16px;
   line-height: 26px;
   color: #333136;
+}
+
+/* CSS  graphicDesign.html */
+
+.grap .touch__main {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.touch__mainGrap {
+  min-height: 292px;
+  max-width: 1110px;
+  border-radius: 15px;
+  background: url(../assets/images/graphD/grap_bgmainl.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+  padding-left: 94px;
+  padding-right: 94px;
+  justify-content: center;
+  column-gap: 310px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+/* css about.html */
+
+.about {
+  height: 480px;
+  border-radius: 15px;
+  background: #e7816b;
+  background-image: url(../assets/images/about/about-bg-Oval.png),
+    url(../assets/images/about/about-main.png);
+  background-repeat: no-repeat;
+  background-position: left center, right center;
+}
+.about__info.flex {
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+.about__info {
+  max-width: 460px;
+  margin-left: 95px;
+}
+
+.telent__bg {
+}
+.telent__info {
 }

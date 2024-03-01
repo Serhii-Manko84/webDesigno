@@ -521,6 +521,7 @@ div.product__content-item {
     url(../assets/images/about/about-main.png);
   background-repeat: no-repeat;
   background-position: left center, right center;
+  margin-bottom: 160px;
 }
 .about__info.flex {
   flex-direction: column;
@@ -532,7 +533,89 @@ div.product__content-item {
   margin-left: 95px;
 }
 
-.telent__bg {
+.about__info h2 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
 }
+
+.about__info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.talent {
+  border-radius: 15px;
+  background: #fdf3f0;
+  gap: 95px;
+  background-image: url(../assets/images/about/about-img2.png),
+    url(../assets/images/about/talent-bg-oval.png);
+  background-position: left center, bottom center;
+  background-repeat: no-repeat, repeat-x;
+  height: 640px;
+  margin-bottom: 152px;
+}
+
 .telent__info {
+  max-width: 540px;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.telent__info h2 {
+  max-width: 445px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  color: #e7816b;
+  margin-bottom: 24px;
+}
+
+.telent__info p {
+  max-width: 445px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333136;
+}
+
+.deal {
+  border-radius: 15px;
+  background: #fdf3f0;
+  gap: 95px;
+  background-image: url(../assets/images/about/about-img3.png),
+    url(../assets/images/about/talent-bg-oval.png);
+  background-position: right center, bottom left;
+  background-repeat: no-repeat, repeat-x;
+  height: 640px;
+  margin-bottom: 380px;
+}
+
+.deal__info {
+  max-width: 540px;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  margin-left: 95px;
+}
+
+.deal__info h2 {
+  max-width: 445px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  color: #e7816b;
+  margin-bottom: 24px;
+}
+
+.deal__info p {
+  max-width: 445px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333136;
 }

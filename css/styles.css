@@ -122,7 +122,7 @@ a {
   padding-right: 24px;
   border-radius: 8px;
   background-color: #fff;
-  transition: background 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .hero__content a:hover,
@@ -360,7 +360,7 @@ div.product__content-item {
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 50%;
-  transition: background 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .info__item.social a:nth-child(1) {
@@ -459,11 +459,11 @@ div.product__content-item {
   background: #fdf3f0;
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
-  transition: background 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .works__item div:hover {
-  background: #e7816b;
+  background-color: #e7816b;
   color: #fff;
 }
 
@@ -580,6 +580,47 @@ div.product__content-item {
   font-size: 16px;
   line-height: 26px;
   color: #333136;
+}
+
+.location {
+  margin-bottom: 160px;
+}
+.location__item {
+  text-align: center;
+}
+
+.location__item img {
+  margin-bottom: 48px;
+}
+
+.location__item h3 {
+  width: 350px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333136;
+  margin-bottom: 32px;
+}
+
+.location__item a {
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  background-color: #e7816b;
+  padding: 18px 17px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.location__item a:hover {
+  background-color: #ffad9b;
 }
 
 .deal {

@@ -710,7 +710,8 @@ div.product__content-item {
 }
 
 .location__address,
-.location__contact {
+.location__contact,
+.location__contact p a {
   font-size: 16px;
   line-height: 26px;
   color: #333136;
@@ -732,6 +733,7 @@ div.product__content-item {
   background-position: right;
   background-repeat: no-repeat;
   padding: 0;
+  border-radius: 15px;
   height: 326px;
 }
 
@@ -760,6 +762,5 @@ div.product__content-item {
   background-image: url(../assets/images/locations/location-ukd.png);
   background-position: right;
   background-repeat: no-repeat;
-  /* padding: 0; */
   height: 326px;
 }

@@ -3,6 +3,11 @@
   box-sizing: border-box;
 }
 
+*::placeholder {
+  color: #fff;
+  opacity: 0.5;
+}
+
 body {
   font-family: "Jost", sans-serif;
   font-style: normal;
@@ -317,6 +322,7 @@ div.product__content-item {
 .line {
   padding-bottom: 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 30px;
 }
 
 .info {
@@ -763,4 +769,98 @@ div.product__content-item {
   background-position: right;
   background-repeat: no-repeat;
   height: 326px;
+}
+
+/* CONTACT */
+
+main.contact {
+  background: url(../assets/images/contact/oval2.png);
+  background-repeat: no-repeat;
+  background-position: right -100px bottom -100px;
+  padding-bottom: 160px;
+}
+
+.cont {
+  min-height: 480px;
+  background-color: #e7816b;
+  border-radius: 15px;
+  padding: 55px 95px;
+  background-image: url(../assets/images/contact/main_oval.png);
+  background-repeat: no-repeat;
+  margin-bottom: 160px;
+}
+
+.cont h1 {
+  margin-bottom: 32px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.cont p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.cont > div {
+  max-width: 445px;
+}
+
+.cont form {
+  max-width: 380px;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 25px;
+}
+
+.cont form input,
+.cont form textarea {
+  width: 100%;
+  font-family: inherit;
+  border: 0;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.cont form input {
+  height: 38px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 11px;
+}
+
+.cont form textarea {
+  height: 102px;
+  padding: 0 16px 11px 16px;
+}
+
+.cont form button {
+  align-self: flex-end;
+  font-family: inherit;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333136;
+  width: 152px;
+  height: 56px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.cont form button:hover {
+  background-color: #ffad9b;
+  color: #fff;
+}
+
+footer.contact {
+  padding-top: 72px;
 }
